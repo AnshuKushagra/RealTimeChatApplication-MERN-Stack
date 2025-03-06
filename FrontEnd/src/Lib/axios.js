@@ -5,5 +5,6 @@ export const axiosInstance = axios.create({
     import.meta.env.MODE === "developement"
       ? "http://localhost:5001/api/"
       : "/api",
+
   withCredentials: true,
 });
