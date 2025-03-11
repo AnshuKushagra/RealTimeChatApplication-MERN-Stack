@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useAuthStore } from "../Store/useAuthStore";
-// import mailLogo from "../assets/mail.png";
 import { Eye, EyeOff, Loader2, Lock, MessageSquare } from "lucide-react";
 import { Mail } from "lucide-react";
 import { Link } from "react-router-dom";
